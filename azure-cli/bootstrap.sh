@@ -6,7 +6,7 @@ sh ./configure
 make
 make install
 apk update
-apk add ncurses util-linux git
+apk add ncurses util-linux git curl
 cd /root
 git clone https://github.com/derdanu/architects-forum.git
 echo "echo \"Please authenticate first with az login\""  > /root/.bashrc

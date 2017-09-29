@@ -9,3 +9,4 @@ apk update
 apk add ncurses util-linux git
 cd /root
 git clone https://github.com/derdanu/architects-forum.git
+echo "echo \"Please authenticate first with az login\""  > /root/.bashrc

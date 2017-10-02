@@ -1,5 +1,5 @@
 #!/bin/bash
-. ./util.sh
+. ../util.sh
 
 run "clear"
 

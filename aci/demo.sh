@@ -4,8 +4,8 @@
 run "clear"
 
 desc "Container Information dfalkner/architects-forum"
-run "cat www/index.php"
-run "cat Dockerfile"
+run "cat ../www/index.php"
+run "cat ../www/Dockerfile"
 
 desc "Create an ACI (Azure Container Instanace)"
 run "az group create --name ACI --location westeurope"

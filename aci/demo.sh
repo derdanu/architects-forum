@@ -32,4 +32,4 @@ desc "Server is running at http://${ip}"
 
 run "curl ${ip}"
 
-run "az group delete --name ACI"
+run "az group delete --name ACI --no-wait"

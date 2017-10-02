@@ -11,4 +11,4 @@ desc "Deploying stuff on the cluster"
 run "cat deployment.yaml"
 run "kubectl create -f aks/deployment.yaml"
 
-run "az group delete --name AKS"
+run "az group delete --name AKS --no-wait"

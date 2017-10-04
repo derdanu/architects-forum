@@ -3,8 +3,9 @@
 
 run "clear"
 cd ../www
+
 desc "Login to Azure Container Registry"
-#run "docker login architectsforum.azurecr.io"
+run "docker login architectsforum.azurecr.io"
 desc "Build and push the image"
 run "docker build . -t architectsforum.azurecr.io/architects-forum"
 run "docker push architectsforum.azurecr.io/architects-forum"
